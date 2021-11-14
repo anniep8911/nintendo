@@ -46,6 +46,14 @@
     div.ftrWrap .footer{
         display: block;
     } 
+
+
+    div.ftrWrap .logo{
+        margin-top: 0;
+    }
+    div.ftrWrap .sns{
+        margin-top: 0;
+    }
     div.ftrWrap .navGroup{
         display: block;
     }   
