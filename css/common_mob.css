@@ -6,7 +6,7 @@
         background-color: #e60012;
     }
     div.hdrWrap .header{
-        width: 80%;
+        width: 90%;
         height: 60px;
         margin: 0 auto;
         /* float 줄 애들의 부모 요소에게 씀  */
@@ -18,14 +18,14 @@
 
     }
     div.hdrWrap .logo{
-        width: calc(100% / 12 * 2); 
+        width: calc(100% / 12 * 3); 
         height: 40px;
         background-position: left;
         background-repeat: no-repeat;
         background-size: contain;
         background-image: url('../image/header_logo_nintendo.png');
         cursor: pointer;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     div.hdrWrap .nav{
         width: 90%;
