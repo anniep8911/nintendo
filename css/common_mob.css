@@ -43,22 +43,30 @@
         font-family: 'Pretendard-Regular';
         font-weight: 600;
     }
+    div.ftrWrap{
+        height: 250px;
+    }
     div.ftrWrap .footer{
         display: block;
+        padding: 20px 0;
     } 
 
 
     div.ftrWrap .logo{
-        margin-top: 0;
+        display: none;
     }
     div.ftrWrap .sns{
-        margin-top: 0;
+        display: none;
     }
     div.ftrWrap .navGroup{
         display: block;
+        margin-top: 20px;
     }   
     div.ftrWrap li:nth-of-type(1)~li{
         display: none;
+    }
+    div.ftrWrap .nav{
+        text-align: center;
     }
 
 }
