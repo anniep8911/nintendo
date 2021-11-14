@@ -1,42 +1,56 @@
-/*header*/
-div.hdrWrap{
-    height: 60px;
-    width: 100%;
-    background-color: #e60012;
-}
-div.hdrWrap .header{
-    width: 80%;
-    height: 60px;
-    margin: 0 auto;
-    /* float 줄 애들의 부모 요소에게 씀  */
-    display: flex;
-    /* 첫째랑 막내가 양 끝으로 가는것 */
-    justify-content: space-between;
-    /* 정렬한 요소들이 높이가 다를경우 위아래 중간으로 정렬해주는것(가운데로 타협) */
-    align-items: center;
+@media (min-width:0px) and (max-width:780px) {
+    /*header*/
+    div.hdrWrap{
+        height: 60px;
+        width: 100%;
+        background-color: #e60012;
+    }
+    div.hdrWrap .header{
+        width: 80%;
+        height: 60px;
+        margin: 0 auto;
+        /* float 줄 애들의 부모 요소에게 씀  */
+        display: flex;
+        /* 첫째랑 막내가 양 끝으로 가는것 */
+        justify-content: space-between;
+        /* 정렬한 요소들이 높이가 다를경우 위아래 중간으로 정렬해주는것(가운데로 타협) */
+        align-items: center;
 
-}
-div.hdrWrap .logo{
-    width: calc(100% / 12 * 2); 
-    height: 40px;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('../image/header_logo_nintendo.png');
-    cursor: pointer;
-    margin-top: 10px;
-}
-div.hdrWrap .nav{
-    display: flex;
-    width:calc(100% / 12 * 8);
-    /* 일정간격 */
-    justify-content: space-around;
-}
-div.hdrWrap li{
-    line-height: 60px;
-    font-size: 14px;
-    color: white;
-    cursor: pointer;
-    font-family: 'Pretendard-Regular';
-    font-weight: 600;
+    }
+    div.hdrWrap .logo{
+        width: calc(100% / 12 * 2); 
+        height: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../image/header_logo_nintendo.png');
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    div.hdrWrap .nav{
+        width: 90%;
+        display: flex;
+        width:calc(100% / 12 * 8);
+        /* 일정간격 */
+        margin: 0 10px;
+        justify-content: space-between;
+    }
+    div.hdrWrap li{
+        line-height: 60px;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+        font-family: 'Pretendard-Regular';
+        font-weight: 600;
+    }
+    div.ftrWrap .footer{
+        display: block;
+    } 
+    div.ftrWrap .navGroup{
+        display: block;
+    }   
+    div.ftrWrap li:nth-of-type(1)~li{
+        display: none;
+    }
+
 }
