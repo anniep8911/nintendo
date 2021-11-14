@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+/*닌텐도로고*/
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+div.cntWrap{
+    margin-top: 40px;
+}
+div.cntWrap .content{
+    width: 90%;
+}
+div.cntWrap .content.cnt01 h2{
+    margin-top: 0;
+}
+div.cntWrap .content.cnt01 section{
+    display: block;
+}
+div.cntWrap .content.cnt01 article{
+    width: 100%;
+}
+div.cntWrap .content.cnt01 .image{
+    height: 150px;
+}
+div.cntWrap .content.cnt01 h5{
+    margin-top: 20px;
+}
+div.cntWrap .content.cnt01 article:nth-of-type(4){
+    margin-top: 20px;
+}
+div.cntWrap:nth-of-type(4){
+    padding: 0;
+}
+div.cntWrap .content.cnt02 .bar{
+    margin-top: 40px;
+}
+div.cntWrap .content.cnt02 header{
+    width: 50%;
+}
+div.cntWrap .content.cnt02 article{
+    width: 50%;
+}
+div.cntWrap .content.cnt02 h2{
+    font-size: 25px;
+}
+div.cntWrap .content.cnt02 p{
+    margin-top: 20px;
+}
+div.cntWrap .content.cnt02 .slideBar{
+    height: 100px;
+}
+
+div.cntWrap:nth-of-type(5){
+    padding: 40px 0;
+}
+div.cntWrap .content.cnt03{
+    display: block;
+}
+div.cntWrap .content.cnt03 header{
+    width: 100%;
+    margin-top: 0;
+}
+div.cntWrap .content.cnt03 span{
+    line-height: 40px;
+}
+div.cntWrap .content.cnt03 section .imgGroup{
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+}
+div.cntWrap .content.cnt03 section .image.i1{
+    position: inherit;
+    width: 100%;
+    height: 120px;
+
+}
+div.cntWrap .content.cnt03 section .image:nth-of-type(1)~div{
+    position: inherit;
+    height: 120px;
+    width: 100%;
+    margin-top: 20px;
+}
+div.cntWrap .content.cnt03 section{
+    width: 100%;
+}
+div.bnrWrap .banner{
+    height: 150px;
+}
+div.cntWrap:nth-of-type(7){
+    padding: 40px 0;
+}
+div.cntWrap .content.cnt04{
+    width: 90%;
+}
+
+div.cntWrap .content.cnt04 article{
+    padding: 0;
+    margin-top: 20px;
+}
+div.cntWrap .content.cnt04 .texts p{
+    display: none;
+}
+div.cntWrap .content.cnt04 .image{
+    height: 150px;
+    box-shadow: none;
+}
+div.cntWrap .content.cnt04 .texts{
+    height: 150px;
+    padding: 20px 0;
+}
+div.cntWrap .content.cnt04 .texts h2{
+    font-size: 20px;
+}
+div.cntWrap .content.cnt04 .slideBar{
+    height: 60px;
+}
+div.cntWrap .content.cnt04 .bar{
+    margin-top: 30px;
+}
+div.cntWrap .content.cnt04 .texts{
+    box-shadow: none;
+}
+div.cntWrap .content.cnt04 article{
+    width: calc(100% / 3 - 6px);
+}
+div.cntWrap .content.cnt04 .artGroup{
+    justify-content: space-between;
+}
+
+div.bnrWrap .banner.bnr02{
+    height: 200px;
+    padding: 20px 0;
+}
+
+div.bnrWrap h2{
+    font-size: 25px;
+}
+div.bnrWrap h3{
+    margin-top: 20px;
+}
+
+div.bnrWrap .button{
+    margin-top: 20px;
+}

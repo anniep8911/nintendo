@@ -1,0 +1,13 @@
+div.cntWrap .content.cnt02 article{
+    display: block;
+}
+div.cntWrap .content.cnt02 .texts{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+div.cntWrap .content.cnt02 .image{
+    width: 100%;
+    background-size: contain;
+    margin: 20px 0 0 0;
+}

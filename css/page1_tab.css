@@ -1,0 +1,41 @@
+div.bnrWrap .banner{
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+div.cntWrap .content.cnt01 header{
+    padding-top: 40px;
+}
+div.cntWrap .content.cnt01 section{
+    margin-top: 40px;
+}
+
+div.cntWrap:nth-of-type(3){
+    height: 500px;
+}
+div.cntWrap .content.cnt02{
+    display: none;
+}
+div.cntWrap .content.cnt03 header{
+    display: none;
+}
+div.cntWrap .content.cnt03 section{
+    margin-top: 0;
+}
+
+div.cntWrap .content.cnt03 .texts{
+    background-color: #fff;
+    height: 200px;
+    margin-top: 0;
+    padding: 40px 0;
+}
+div.cntWrap .content.cnt03 article .image{
+    height: 200px;
+}
+div.cntWrap .content.cnt03 .texts p{
+    font-size: 15px;
+}
+div.cntWrap .content.cnt03 .texts h2{
+    font-size: 25px;
+}
